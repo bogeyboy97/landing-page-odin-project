@@ -1,4 +1,4 @@
-*{border: 1px solid red;}
+/* *{border: 1px solid red;} */
 body{
     background-color: #FFFFFF;
     padding: 0 ;
@@ -9,7 +9,8 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-
+    margin: 0;
+    padding: 0;
 }
 
 /* HEADER AND NAVBAR */
@@ -106,24 +107,101 @@ h1{
 }
 
 .box-2 .title{
-    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-bottom: 28px;
     font-size: 32px;
     font-weight: bold;
 }
 
 .character-box{
     display: flex;
-    padding: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 72px;
+    gap: 84px;
 } 
 .info{
     max-width: 200px;
 }
 
 .box-2 .text{
-    font-weight: bold;
+}
+
+.box-2 h3{
+    font-size: 18px;
+}
+
+.box-3{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+
+.box-3 p{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.box-3 b{
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+/* Third box of the body */
+
+.box-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+.box-4 .text{
+    text-align: left;
+}
+
+.box-4 h3{
+    color: #FFFFFF;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+.box-4 p{
+    color: #fff;
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+.box-4 button{
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+    
+}
+
+/* Footer section */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #FFFFFF;
+    font-family: 'Roboto', arial;
+    height: 50px;
 }
 
 
