@@ -1,0 +1,131 @@
+*{border: 1px solid red;}
+body{
+    background-color: #FFFFFF;
+    padding: 0 ;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* HEADER AND NAVBAR */
+
+.header{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+.header-links{
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px ;
+    align-items: center;
+
+}
+.header-logo img{
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
+/* First box of the body */
+
+.box-1{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    /* padding: 20px 0px 20px 20px; */
+    align-items: center;
+    justify-content: center;
+    padding: 90;
+    
+}
+
+.sign-up-box{
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.sign-up-box p{
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
+
+}
+.sign-up-box button{
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sign-up-image{
+    padding: 20px;
+}
+
+/* Second box of the body */
+
+.box-2{
+    text-align: center;
+}.box-2 img{
+    width:200px;
+    height:400px;
+    margin-bottom: 5px;
+}
+
+.box-2 .title{
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.character-box{
+    display: flex;
+    padding: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
+} 
+.info{
+    max-width: 200px;
+}
+
+.box-2 .text{
+    font-weight: bold;
+}
+
+
+
+
